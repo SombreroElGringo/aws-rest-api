@@ -1,0 +1,24 @@
+{
+  "name": "aws-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.387.0",
+    "bluebird": "^3.5.3",
+    "uuid": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SombreroElGringo/aws-rest-api.git"
+  },
+  "author": "SombreroElGringo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SombreroElGringo/aws-rest-api/issues"
+  },
+  "homepage": "https://github.com/SombreroElGringo/aws-rest-api#readme"
+}
