@@ -10,4 +10,14 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: hello.greet
+    description: Hello World!
+
+  createCandidate:
+    handler: api/candidate.create
+    memorySize: 128
+    description: Create a candidate
+    events:
+      - http:
+          path: candidates
+          method: post
